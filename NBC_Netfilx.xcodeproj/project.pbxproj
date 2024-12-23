@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		45DE73892D19321C00E3F59D /* Exceptions for "NBC_Netfilx" folder in "NBC_Netfilx" target */ = {
+		45DE73A32D19346500E3F59D /* Exceptions for "App" folder in "NBC_Netfilx" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,12 +21,27 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		45DE73792D19321B00E3F59D /* NBC_Netfilx */ = {
+		45DE73A22D19345900E3F59D /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				45DE73892D19321C00E3F59D /* Exceptions for "NBC_Netfilx" folder in "NBC_Netfilx" target */,
+				45DE73A32D19346500E3F59D /* Exceptions for "App" folder in "NBC_Netfilx" target */,
 			);
-			path = NBC_Netfilx;
+			path = App;
+			sourceTree = "<group>";
+		};
+		45DE73A42D19348100E3F59D /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		45DE73A52D19348800E3F59D /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45DE73A62D19349000E3F59D /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +60,7 @@
 		45DE736E2D19321B00E3F59D = {
 			isa = PBXGroup;
 			children = (
-				45DE73792D19321B00E3F59D /* NBC_Netfilx */,
+				45DE73982D19343C00E3F59D /* NBC_Netfilx */,
 				45DE73782D19321B00E3F59D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +71,17 @@
 				45DE73772D19321B00E3F59D /* NBC_Netfilx.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45DE73982D19343C00E3F59D /* NBC_Netfilx */ = {
+			isa = PBXGroup;
+			children = (
+				45DE73A22D19345900E3F59D /* App */,
+				45DE73A62D19349000E3F59D /* Model */,
+				45DE73A42D19348100E3F59D /* View */,
+				45DE73A52D19348800E3F59D /* ViewModel */,
+			);
+			path = NBC_Netfilx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +100,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				45DE73792D19321B00E3F59D /* NBC_Netfilx */,
+				45DE73A22D19345900E3F59D /* App */,
+				45DE73A42D19348100E3F59D /* View */,
+				45DE73A52D19348800E3F59D /* ViewModel */,
+				45DE73A62D19349000E3F59D /* Model */,
 			);
 			name = NBC_Netfilx;
 			packageProductDependencies = (
