@@ -5,6 +5,10 @@ DerivedData/
 *.xccheckout
 *.xcscmblueprint
 
+# Xcode user-specific files
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
 # Swift Package Manager
 .build/
 Package.resolved
