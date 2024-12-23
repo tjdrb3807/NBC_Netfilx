@@ -1,0 +1,78 @@
+# Xcode와 관련된 파일들
+DerivedData/
+.idea/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# 코코아팟
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+.fastlane/
+
+# 기타 macOS 관련
+*.DS_Store
+*.swp
+*.lock
+*~.nib/
+*~.plist
+*.pyc
+*.app
+*.ipa
+
+# 테스트 및 빌드 파일
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.dSYM
+*.ipa
+*.xcworkspace
+
+# 로그 파일
+*.log
+
+# 사용자 데이터 파일
+*.xcuserdata
+
+# 빌드 파일
+build/
+*.o
+*.a
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+*.profdata
+*.profraw
+
+# Env 파일
+.env
+.env.*
+
+# Firebase 관련 파일
+GoogleService-Info.plist
+
+# 기타 IDE 설정
+.vscode/
+*.code-snippets
+*.workspace
+*.editorconfig
+
+# CI/CD 관련
+.report/
+result_bundle/
+result_bundle.xcresult/
